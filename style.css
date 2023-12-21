@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+    width: 100%;
+  } 
+  .img{
+    padding: 10px;
+    width: 700%;
+    height: 400%;
+    position: relative;
+    border-radius: 50px 50px 50px 50px; 
+    justify-content: flex-start;
+  }
+  body{
+    background-color: #F8EEDB;
+    cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Black_cursor.png) , pointer !important;
+
+  }
+
+  .container {
+    display: flex ;
+   align-items: baseline;
+    justify-content: space-between;
+  flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+
+  .titolo{
+  top: px;
+    font-family: "Lucida Handwriting", cursive;
+    color: white;
+    font-style: oblique;
+    text-align: center;   
+    font-size: 80px;
+    position: relative;
+    background-color: #974A4D;
+     border-radius: 10px 10px 10px 10px; 
+    justify-content: flex-start;
+  }
+  .barranav a {
+    float: left;
+    border-right-style: solid;
+    border-left-style: solid;
+	border-width: 1px;
+    color: #5b120c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  .barranav{
+    
+    background-color: #F8EEDB;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px; 
+    justify-content: flex-start;
+    padding-top:30px;
+    padding-bottom:10px;
+  	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	width: 45%;
+  	margin: 0 auto
+    
+  }
+  
+  
+  .insieme{
+    position: relative;
+  top:10px;
+   background-color: #F8EEDB;
+    color: #ffffff;
+       border-radius: 10px 10px 10px 10px; 
+    justify-content: flex-start;
+  }
+  .type {
+    color: #5b120c;
+	text-align: center;
+	font-family:"Neue Haas Grotesk Display Pro";
+	font-weight: 300;
+	font-size: 40px;
+    padding: 10px;
+	
+}
+  #about {
+    color: #5b120c;
+    text-align: left ;
+    font-family:"Neue Haas Grotesk Text Pro";
+    font-weight:400;
+    font-size:20px;
+      padding:100px;
+      table {
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+  
+}
